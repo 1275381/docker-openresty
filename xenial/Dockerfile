@@ -70,7 +70,7 @@ RUN \
     && cd /tmp \
     && curl -fSL https://www.openssl.org/source/openssl-${RESTY_OPENSSL_VERSION}.tar.gz -o openssl-${RESTY_OPENSSL_VERSION}.tar.gz \
     && tar xzf openssl-${RESTY_OPENSSL_VERSION}.tar.gz \
-    && curl -fSL https://github.com/FRiCKLE/ngx_cache_purge/archive/2.3.tar.gz \
+    && curl -fSL https://github.com/FRiCKLE/ngx_cache_purge/archive/2.3.tar.gz -o 2.3.tar.gz \
 && tar xzf 2.3.tar.gz \
     && curl -fSL https://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-${RESTY_PCRE_VERSION}.tar.gz -o pcre-${RESTY_PCRE_VERSION}.tar.gz \
     && tar xzf pcre-${RESTY_PCRE_VERSION}.tar.gz \
